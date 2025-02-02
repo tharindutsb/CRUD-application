@@ -1,8 +1,9 @@
 from pydantic import BaseModel
 from bson import ObjectId
+from typing import Optional
 
 class Interns(BaseModel):
-    intern_id: str
+    intern_id: Optional[str] = None
     name: str
     address: str
     email: str

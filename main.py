@@ -1,7 +1,7 @@
 from fastapi import FastAPI
-from openApi.routes import intern_routes
+from openApi.routes.intern_routes import router as intern_router
 
 app = FastAPI()
 
 # Include the intern routes
-app.include_router(intern_routes.router)
+app.include_router(intern_router)
