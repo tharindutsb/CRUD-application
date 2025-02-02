@@ -8,7 +8,7 @@ class InternsService:
         self.db = db_client["intern_db"]["interns"]
         self.counter_db = db_client["intern_db"]["counters"]  # For managing intern_id counter
 
-    async def get_next_intern_id():
+    async def get_next_intern_id(self):
         # Find and update the counter for 'intern_id'
         counter = await self.counter_db.find_one_and_update(
             {"_id": "intern_id"},
