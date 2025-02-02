@@ -4,16 +4,16 @@ Python Project File Structure
 DRS_Python_Backend/
         ├── openApi/
         │      ├── routes/                              # Define API routes
-        │      │      ├── student_routes.py             # Routes for student API
         │      │      ├── intern_routes.py              # Routes for intern API
+        │      │      
         │      ├── controllers/                         # Define API endpoints 
         │      ├── models/                              # Define data models for the API 
         │      │      ├── models.py                     # General models
         │      │      ├── student.py                    # Student model
         │      │      ├── intern.py                     # Intern model
         │      ├── services/                            # API logic
-        │      │      ├── student_service.py            # Service for student API
         │      │      ├── intern_service.py             # Service for intern API
+        │      │      
         │
         ├── logger/
         │      ├── log_config.py                        # Logger configuration

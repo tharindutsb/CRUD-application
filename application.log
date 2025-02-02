@@ -1,0 +1,32 @@
+2025-02-02 21:53:44,368 - INFO - Logging system initialized successfully!
+2025-02-02 21:54:53,781 - INFO - Deleted intern 0008
+2025-02-02 21:57:12,358 - INFO - Created new intern: 0009 - John Doe
+2025-02-02 21:58:19,635 - INFO - Logging system initialized successfully!
+2025-02-02 21:58:20,376 - INFO - Logging system initialized successfully!
+2025-02-02 21:58:35,366 - INFO - Logging system initialized successfully!
+2025-02-02 21:59:20,138 - INFO - Created new intern: 0010 - John Doe
+2025-02-02 22:03:20,396 - INFO - Logging system initialized successfully!
+2025-02-02 22:03:20,478 - INFO - Logging system initialized successfully!
+2025-02-02 22:03:55,343 - WARNING - ⚠️ Intern with intern_id 0006 not found
+2025-02-02 22:03:55,344 - ERROR - Error retrieving intern 0006: 404: Intern not found
+2025-02-02 22:04:06,344 - WARNING - ⚠️ Intern with intern_id 0001 not found
+2025-02-02 22:04:06,344 - ERROR - Error retrieving intern 0001: 404: Intern not found
+2025-02-02 22:04:16,873 - WARNING - ⚠️ Intern with intern_id 0008 not found
+2025-02-02 22:04:16,873 - ERROR - Error retrieving intern 0008: 404: Intern not found
+2025-02-02 22:04:59,370 - INFO - Fetched intern with intern_id: 0002
+2025-02-02 22:07:28,740 - INFO - Logging system initialized successfully!
+2025-02-02 22:07:28,901 - INFO - Logging system initialized successfully!
+2025-02-02 22:07:34,347 - INFO - Fetched intern with intern_id: 0005
+2025-02-02 22:07:56,365 - INFO - Fetched intern with intern_id: 0005
+2025-02-02 22:08:06,867 - WARNING -  Intern with intern_id 0001 not found
+2025-02-02 22:08:06,867 - ERROR - Error retrieving intern 0001: 404: Intern not found
+2025-02-02 22:09:37,318 - INFO - Logging system initialized successfully!
+2025-02-02 22:09:37,439 - INFO - Logging system initialized successfully!
+2025-02-02 22:10:47,050 - INFO - Logging system initialized successfully!
+2025-02-02 22:10:47,125 - INFO - Logging system initialized successfully!
+2025-02-02 22:10:49,370 - WARNING - ⚠️ Intern with intern_id 0001 not found
+2025-02-02 22:10:49,370 - ERROR - ❌ Error retrieving intern 0001: 404: Intern not found
+2025-02-02 22:12:03,036 - INFO - Logging system initialized successfully!
+2025-02-02 22:12:03,354 - INFO - Logging system initialized successfully!
+2025-02-02 22:12:27,846 - WARNING - ⚠️ Intern 0001 not found for deletion
+2025-02-02 22:12:27,846 - ERROR - ❌ Error deleting intern 0001: 404: Intern not found

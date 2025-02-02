@@ -8,16 +8,19 @@
 
 import logging
 
-logger = logging.getLogger("intern_app")
-logger.setLevel(logging.INFO)
+# Define log file location
+LOG_FILE = "application.log"
 
-# Creating file handler
-file_handler = logging.FileHandler("application.log")
-file_handler.setLevel(logging.INFO)
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,  # Change to INFO to reduce unnecessary debug logs
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    handlers=[
+        logging.FileHandler(LOG_FILE, mode="a", encoding="utf-8"),  # Log to file
+        logging.StreamHandler()  # Log to console
+    ]
+)
 
-# Creating formatter and adding it to the file handler
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-file_handler.setFormatter(formatter)
+logger = logging.getLogger("intern_app")  # Use a consistent logger name
 
-# Adding file handler to logger
-logger.addHandler(file_handler)
+logger.info("Logging system initialized successfully!")
