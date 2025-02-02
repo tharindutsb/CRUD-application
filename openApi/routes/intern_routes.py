@@ -68,3 +68,12 @@ async def delete_intern(intern_id: str, db: AsyncIOMotorClient = Depends(get_db)
     except Exception as e:
         logger.error(f"Error deleting intern with ID {intern_id}: {e}")
         raise HTTPException(status_code=500, detail="Internal Server Error")
+
+@router.delete("/interns/")
+async def delete_all_interns(db: AsyncIOMotorClient = Depends(get_db)):
+    try:
+        intern_service = InternsService(db)
+        return await intern_service.delete_all_interns()
+    except Exception as e:
+        logger.error(f"Error deleting all interns: {e}")
+        raise HTTPException(status_code=500, detail="Internal Server Error")

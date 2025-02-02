@@ -30,3 +30,82 @@
 2025-02-02 22:12:03,354 - INFO - Logging system initialized successfully!
 2025-02-02 22:12:27,846 - WARNING - ⚠️ Intern 0001 not found for deletion
 2025-02-02 22:12:27,846 - ERROR - ❌ Error deleting intern 0001: 404: Intern not found
+2025-02-02 22:26:05,498 - INFO - Logging system initialized successfully!
+2025-02-02 22:26:05,569 - INFO - Logging system initialized successfully!
+2025-02-02 22:27:21,829 - INFO - ✅ Created new intern: 0011 - John Doe
+2025-02-02 23:58:45,092 - INFO - Logging system initialized successfully!
+2025-02-02 23:58:45,781 - INFO - Logging system initialized successfully!
+2025-02-03 00:05:07,672 - INFO - Logging system initialized successfully!
+2025-02-03 00:05:07,905 - INFO - Logging system initialized successfully!
+2025-02-03 00:05:45,503 - INFO - Logging system initialized successfully!
+2025-02-03 00:05:45,594 - INFO - Logging system initialized successfully!
+2025-02-03 00:06:54,490 - INFO - Logging system initialized successfully!
+2025-02-03 00:06:54,599 - INFO - Logging system initialized successfully!
+2025-02-03 00:11:03,107 - INFO - Logging system initialized successfully!
+2025-02-03 00:11:03,171 - INFO - Logging system initialized successfully!
+2025-02-03 00:11:08,933 - INFO - Logging system initialized successfully!
+2025-02-03 00:11:08,995 - INFO - Logging system initialized successfully!
+2025-02-03 00:12:50,886 - INFO - Logging system initialized successfully!
+2025-02-03 00:12:50,893 - INFO - Logging system initialized successfully!
+2025-02-03 00:13:52,898 - INFO - Logging system initialized successfully!
+2025-02-03 00:13:53,023 - INFO - Logging system initialized successfully!
+2025-02-03 00:17:33,644 - INFO - Logging system initialized successfully!
+2025-02-03 00:17:33,828 - INFO - Logging system initialized successfully!
+2025-02-03 00:18:03,769 - INFO - Logging system initialized successfully!
+2025-02-03 00:21:25,176 - INFO - Logging system initialized successfully!
+2025-02-03 00:21:25,270 - INFO - Logging system initialized successfully!
+2025-02-03 00:21:25,274 - INFO - Logging system initialized successfully!
+2025-02-03 00:22:27,311 - INFO - Logging system initialized successfully!
+2025-02-03 00:22:27,810 - INFO - Logging system initialized successfully!
+2025-02-03 00:22:27,953 - INFO - Logging system initialized successfully!
+2025-02-03 00:22:55,732 - INFO - Logging system initialized successfully!
+2025-02-03 00:22:56,117 - INFO - Logging system initialized successfully!
+2025-02-03 00:22:56,161 - INFO - Logging system initialized successfully!
+2025-02-03 00:37:03,718 - INFO - Logging system initialized successfully!
+2025-02-03 00:37:03,903 - INFO - Logging system initialized successfully!
+2025-02-03 00:37:03,920 - INFO - Logging system initialized successfully!
+2025-02-03 00:37:26,649 - INFO - Logging system initialized successfully!
+2025-02-03 00:37:26,866 - INFO - Logging system initialized successfully!
+2025-02-03 00:37:26,926 - INFO - Logging system initialized successfully!
+2025-02-03 00:38:05,843 - INFO - Logging system initialized successfully!
+2025-02-03 00:38:05,847 - INFO - Logging system initialized successfully!
+2025-02-03 00:38:06,005 - INFO - Logging system initialized successfully!
+2025-02-03 00:38:37,348 - INFO - Logging system initialized successfully!
+2025-02-03 00:38:37,352 - INFO - Logging system initialized successfully!
+2025-02-03 00:38:37,416 - INFO - Logging system initialized successfully!
+2025-02-03 00:38:40,532 - INFO - Logging system initialized successfully!
+2025-02-03 00:38:40,577 - INFO - Logging system initialized successfully!
+2025-02-03 00:38:40,653 - INFO - Logging system initialized successfully!
+2025-02-03 00:40:41,519 - INFO - Logging system initialized successfully!
+2025-02-03 00:40:41,574 - INFO - Logging system initialized successfully!
+2025-02-03 00:40:41,768 - INFO - Logging system initialized successfully!
+2025-02-03 00:41:00,922 - INFO - Logging system initialized successfully!
+2025-02-03 00:41:01,142 - INFO - Logging system initialized successfully!
+2025-02-03 00:41:01,153 - INFO - Logging system initialized successfully!
+2025-02-03 00:44:25,060 - INFO - Logging system initialized successfully!
+2025-02-03 00:44:25,220 - INFO - Logging system initialized successfully!
+2025-02-03 00:44:25,682 - INFO - Logging system initialized successfully!
+2025-02-03 00:44:26,460 - INFO - Logging system initialized successfully!
+2025-02-03 00:44:26,588 - INFO - Logging system initialized successfully!
+2025-02-03 00:47:42,228 - INFO - Logging system initialized successfully!
+2025-02-03 00:47:42,421 - INFO - Logging system initialized successfully!
+2025-02-03 00:47:42,425 - INFO - Logging system initialized successfully!
+2025-02-03 00:47:52,975 - INFO - Logging system initialized successfully!
+2025-02-03 00:47:53,069 - INFO - Logging system initialized successfully!
+2025-02-03 00:47:53,285 - INFO - Logging system initialized successfully!
+2025-02-03 00:48:41,235 - INFO - Logging system initialized successfully!
+2025-02-03 00:49:06,631 - INFO - ✅ Fetched 19 interns
+2025-02-03 00:50:03,759 - INFO - ✅ Created new intern: 0029 - Tharindu
+2025-02-03 00:50:35,585 - INFO - ✅ Fetched intern with intern_id: 0029
+2025-02-03 00:52:16,347 - INFO - ✅ Updated intern with intern_id 0029
+2025-02-03 00:55:15,087 - INFO - Logging system initialized successfully!
+2025-02-03 00:55:16,863 - WARNING - ⚠️ No changes made for intern_id 0029
+2025-02-03 00:55:16,863 - ERROR - ❌ Error updating intern 0029: 404: Intern not found
+2025-02-03 00:56:13,403 - INFO - ✅ Updated intern with intern_id 0029
+2025-02-03 00:59:19,530 - INFO - Logging system initialized successfully!
+2025-02-03 00:59:47,430 - INFO - ✅ Deleted all interns, count: 20
+2025-02-03 01:01:01,873 - INFO - ✅ Created new intern: 0030 - Tharindu
+2025-02-03 01:02:02,335 - INFO - ✅ Created new intern: 0002 - Tharindu
+2025-02-03 01:02:35,845 - INFO - ✅ Created new intern: 0001 - Tharindu
+2025-02-03 01:03:01,871 - INFO - ✅ Created new intern: 0002 - Sampath
+2025-02-03 01:03:12,863 - INFO - ✅ Created new intern: 0003 - Balasooriya
