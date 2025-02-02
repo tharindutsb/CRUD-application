@@ -109,3 +109,6 @@
 2025-02-03 01:02:35,845 - INFO - ✅ Created new intern: 0001 - Tharindu
 2025-02-03 01:03:01,871 - INFO - ✅ Created new intern: 0002 - Sampath
 2025-02-03 01:03:12,863 - INFO - ✅ Created new intern: 0003 - Balasooriya
+2025-02-03 01:10:33,841 - INFO - Logging system initialized successfully!
+2025-02-03 01:10:45,362 - INFO - ✅ Fetched 5 interns
+2025-02-03 01:11:47,859 - INFO - ✅ Created new intern: 0004 - Amal
