@@ -112,3 +112,11 @@
 2025-02-03 01:10:33,841 - INFO - Logging system initialized successfully!
 2025-02-03 01:10:45,362 - INFO - ✅ Fetched 5 interns
 2025-02-03 01:11:47,859 - INFO - ✅ Created new intern: 0004 - Amal
+2025-02-03 01:25:27,173 - INFO - Logging system initialized successfully!
+2025-02-03 01:29:54,570 - INFO - ✅ Fetched 7 interns
+2025-02-03 02:11:22,287 - INFO - Logging system initialized successfully!
+2025-02-03 02:11:31,173 - INFO - ✅ Fetched 7 interns
+2025-02-03 02:17:45,167 - INFO - ✅ Fetched intern with intern_id: 0002
+2025-02-03 02:17:56,847 - WARNING - ⚠️ Intern with intern_id 0000 not found
+2025-02-03 02:17:56,848 - ERROR - ❌ Error retrieving intern 0000: 404: Intern not found
+2025-02-03 04:37:39,409 - INFO - Logging system initialized successfully!

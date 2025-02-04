@@ -9,12 +9,15 @@
 import logging
 
 # Define log file location
-LOG_FILE = "application.log"
+LOG_FILE = "C:/Users/MSii/Desktop/logger/application.log"
 
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,  # Change to INFO to reduce unnecessary debug logs
-    format="%(asctime)s - %(levelname)s - %(message)s",
+    format="%(asctime)s - %(name)s - %(levelname)s - %(filename)s - line %(lineno)d - %(message)s",
+    
+    
+    # format="%(asctime)s - %(levelname)s - %(message)s",
     handlers=[
         logging.FileHandler(LOG_FILE, mode="a", encoding="utf-8"),  # Log to file
         logging.StreamHandler()  # Log to console
