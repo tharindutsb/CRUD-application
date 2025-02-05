@@ -4,3 +4,4 @@ pydantic
 motor
 pytest
 loguru
+python-multipart

@@ -9,8 +9,7 @@
 import logging
 
 # Define log file location
-LOG_FILE = "C:/Users/MSii/Desktop/logger/application.log"
-
+LOG_FILE = "application.log"
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,  # Change to INFO to reduce unnecessary debug logs

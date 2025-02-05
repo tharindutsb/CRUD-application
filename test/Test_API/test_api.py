@@ -54,6 +54,7 @@ def test_update_intern():
     global created_intern_id
     assert created_intern_id is not None  # Ensure intern_id exists
     response = client.put(f"/interns/{created_intern_id}", json={
+        "intern_id": created_intern_id,  # Ensure intern_id is included in the request body
         "name": "Updated Sampath",
         "address": "New Address",
         "email": "updated@example.com",

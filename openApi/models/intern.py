@@ -1,12 +1,12 @@
-from pydantic import BaseModel, EmailStr, field_validator
+from pydantic import BaseModel, EmailStr, field_validator, Field
 from typing import Optional
 
 class Interns(BaseModel):
     intern_id: Optional[str] = None  # Make it optional
-    name: str
-    address: str
-    email: EmailStr
-    contact_no: str
+    name: str = Field(..., description="The name of the intern", example="Tharindu Sampath")
+    address: str = Field(..., description="The address of the intern", example="123 Main St")
+    email: EmailStr = Field(..., description="The email address of the intern", example="tharindu.doe@example.com")
+    contact_no: str = Field(..., description="The contact number of the intern", example="0712345678")
 
     @field_validator("name")
     def validate_name(cls, value):

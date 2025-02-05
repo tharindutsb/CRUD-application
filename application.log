@@ -120,3 +120,49 @@
 2025-02-03 02:17:56,847 - WARNING - ⚠️ Intern with intern_id 0000 not found
 2025-02-03 02:17:56,848 - ERROR - ❌ Error retrieving intern 0000: 404: Intern not found
 2025-02-03 04:37:39,409 - INFO - Logging system initialized successfully!
+2025-02-05 21:24:34,040 - intern_app - INFO - TestLogger.py - line 29 - Logging system initialized successfully!
+2025-02-05 21:25:03,046 - intern_app - INFO - TestLogger.py - line 28 - Logging system initialized successfully!
+2025-02-05 21:25:05,575 - intern_app - INFO - TestLogger.py - line 28 - Logging system initialized successfully!
+2025-02-05 21:35:24,182 - intern_app - INFO - TestLogger.py - line 28 - Logging system initialized successfully!
+2025-02-05 21:35:24,450 - intern_app - INFO - TestLogger.py - line 28 - Logging system initialized successfully!
+2025-02-05 23:34:34,230 - intern_app - INFO - TestLogger.py - line 28 - Logging system initialized successfully!
+2025-02-05 23:34:34,408 - intern_app - INFO - TestLogger.py - line 28 - Logging system initialized successfully!
+2025-02-05 23:34:57,869 - intern_app - INFO - TestLogger.py - line 28 - Logging system initialized successfully!
+2025-02-05 23:42:09,567 - intern_app - INFO - TestLogger.py - line 28 - Logging system initialized successfully!
+2025-02-05 23:42:09,758 - intern_app - INFO - TestLogger.py - line 28 - Logging system initialized successfully!
+2025-02-05 23:44:31,360 - intern_app - INFO - TestLogger.py - line 28 - Logging system initialized successfully!
+2025-02-05 23:44:31,588 - intern_app - INFO - TestLogger.py - line 28 - Logging system initialized successfully!
+2025-02-05 23:47:01,653 - intern_app - INFO - TestLogger.py - line 28 - Logging system initialized successfully!
+2025-02-05 23:47:01,797 - intern_app - INFO - TestLogger.py - line 28 - Logging system initialized successfully!
+2025-02-05 23:50:26,599 - intern_app - INFO - TestLogger.py - line 28 - Logging system initialized successfully!
+2025-02-05 23:50:26,871 - intern_app - INFO - TestLogger.py - line 28 - Logging system initialized successfully!
+2025-02-05 23:50:29,322 - intern_app - INFO - TestLogger.py - line 28 - Logging system initialized successfully!
+2025-02-05 23:50:29,701 - intern_app - INFO - TestLogger.py - line 28 - Logging system initialized successfully!
+2025-02-05 23:51:17,789 - intern_app - INFO - intern_service.py - line 96 - ✅ Updated intern with intern_id 0002
+2025-02-05 23:52:40,118 - intern_app - INFO - TestLogger.py - line 28 - Logging system initialized successfully!
+2025-02-05 23:52:40,333 - intern_app - INFO - TestLogger.py - line 28 - Logging system initialized successfully!
+2025-02-05 23:56:22,215 - intern_app - INFO - TestLogger.py - line 28 - Logging system initialized successfully!
+2025-02-05 23:56:22,579 - intern_app - INFO - TestLogger.py - line 28 - Logging system initialized successfully!
+2025-02-05 23:56:29,379 - intern_app - INFO - TestLogger.py - line 28 - Logging system initialized successfully!
+2025-02-05 23:58:29,545 - intern_app - INFO - TestLogger.py - line 28 - Logging system initialized successfully!
+2025-02-05 23:58:29,549 - fastapi - ERROR - utils.py - line 114 - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-02-05 23:59:19,460 - intern_app - INFO - TestLogger.py - line 28 - Logging system initialized successfully!
+2025-02-06 00:05:36,169 - intern_app - INFO - TestLogger.py - line 28 - Logging system initialized successfully!
+2025-02-06 00:06:28,888 - intern_app - INFO - TestLogger.py - line 28 - Logging system initialized successfully!
+2025-02-06 00:08:09,588 - intern_app - INFO - intern_service.py - line 123 - ✅ Deleted all interns, count: 20
+2025-02-06 00:10:11,082 - intern_app - INFO - intern_service.py - line 41 - ✅ Created new intern: 0001 - Tharindu Sampath Balasooriya
+2025-02-06 00:21:57,047 - intern_app - INFO - TestLogger.py - line 28 - Logging system initialized successfully!
+2025-02-06 00:22:11,547 - intern_app - INFO - TestLogger.py - line 28 - Logging system initialized successfully!
+2025-02-06 00:22:17,490 - intern_app - INFO - TestLogger.py - line 28 - Logging system initialized successfully!
+2025-02-06 00:22:32,931 - intern_app - INFO - intern_service.py - line 62 - ✅ Fetched 1 interns
+2025-02-06 00:22:32,932 - openApi.routes.intern_routes - INFO - intern_routes.py - line 74 - ✅ Returning 1 interns
+2025-02-06 00:23:38,427 - intern_app - INFO - TestLogger.py - line 28 - Logging system initialized successfully!
+2025-02-06 00:23:43,864 - intern_app - INFO - intern_service.py - line 62 - ✅ Fetched 1 interns
+2025-02-06 00:23:43,864 - openApi.routes.intern_routes - INFO - intern_routes.py - line 74 - ✅ Returning 1 interns
+2025-02-06 00:23:57,909 - intern_app - INFO - intern_service.py - line 73 - ✅ Fetched intern with intern_id: 0001
+2025-02-06 00:24:06,476 - intern_app - INFO - intern_service.py - line 73 - ✅ Fetched intern with intern_id: 0001
+2025-02-06 00:24:57,954 - intern_app - INFO - intern_service.py - line 114 - ✅ Deleted intern 0001
