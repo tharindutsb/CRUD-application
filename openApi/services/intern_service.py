@@ -2,7 +2,7 @@ from openApi.models.intern import Interns
 from motor.motor_asyncio import AsyncIOMotorClient
 from bson import ObjectId
 from fastapi import HTTPException
-from logger.log_config import logger  # Import logger from log_config.py
+from logger.TestLogger import logger  # Import logger from TestLogger.py
 
 class InternsService:
     def __init__(self, db_client: AsyncIOMotorClient):

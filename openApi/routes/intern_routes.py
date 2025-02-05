@@ -106,6 +106,7 @@ from openApi.models.intern import Interns
 from openApi.services.intern_service import InternsService
 from motor.motor_asyncio import AsyncIOMotorClient
 import logging
+from logger.TestLogger import logger  # Import logger from TestLogger.py
 
 router = APIRouter()
 
