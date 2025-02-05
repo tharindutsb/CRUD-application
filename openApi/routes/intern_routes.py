@@ -32,10 +32,10 @@ def get_db():
     response_description="The created intern's ID and a success message."
 )
 async def create_intern(
-    name: str = Form(..., example="Tharindu Sampath"),
-    address: str = Form(..., example="123 Main St"),
-    email: str = Form(..., example="tharindu.doe@example.com"),
-    contact_no: str = Form(..., example="0712345678"),
+    name: str = Form(..., examples={"example": "Tharindu Sampath"}),
+    address: str = Form(..., examples={"example": "123 Main St"}),
+    email: str = Form(..., examples={"example": "tharindu.doe@example.com"}),
+    contact_no: str = Form(..., examples={"example": "0712345678"}),
     db: AsyncIOMotorClient = Depends(get_db)
 ):
     """Creates a new intern and returns a success message."""
@@ -57,8 +57,8 @@ async def create_intern(
     response_description="A list of all registered interns."
 )
 async def get_interns(
-    name: str = Query(None, description="Filter by name", example="Tharindu"),
-    limit: int = Query(10, ge=1, le=100, description="Number of results to return (default: 10)", example=10),
+    name: str = Query(None, description="Filter by name", examples={"example": "Tharindu"}),
+    limit: int = Query(10, ge=1, le=100, description="Number of results to return (default: 10)", examples={"example": 10}),
     db: AsyncIOMotorClient = Depends(get_db)
 ):
     """Fetch all interns with optional name filtering."""
@@ -87,7 +87,7 @@ async def get_interns(
     response_description="The details of the requested intern."
 )
 async def get_intern(
-    intern_id: str = Path(..., title="Intern ID", description="The unique ID of the intern", example="0001"),
+    intern_id: str = Path(..., title="Intern ID", description="The unique ID of the intern", examples={"example": "0001"}),
     db: AsyncIOMotorClient = Depends(get_db)
 ):
     """Returns details of a specific intern by ID."""
@@ -110,12 +110,14 @@ async def get_intern(
     response_description="The updated intern's details and a success message."
 )
 async def update_intern(
-    intern_id: str = Path(..., title="Intern ID", description="The unique ID of the intern to update", example="0001"),
-    intern: Interns = Body(..., example={  # Define fields to update
-        "name": "Updated Tharindu Sampath",
-        "address": "456 Elm St",
-        "email": "updated.tharindu.doe@example.com",
-        "contact_no": "0712345679"
+    intern_id: str = Path(..., title="Intern ID", description="The unique ID of the intern to update", examples={"example": "0001"}),
+    intern: Interns = Body(..., examples={  # Define fields to update
+        "example": {
+            "name": "Updated Tharindu Sampath",
+            "address": "456 Elm St",
+            "email": "updated.tharindu.doe@example.com",
+            "contact_no": "0712345679"
+        }
     }),
     db: AsyncIOMotorClient = Depends(get_db)
 ):
@@ -138,7 +140,7 @@ async def update_intern(
     response_description="A success message indicating the intern was deleted."
 )
 async def delete_intern(
-    intern_id: str = Path(..., title="Intern ID", description="The unique ID of the intern to delete", example="0001"),
+    intern_id: str = Path(..., title="Intern ID", description="The unique ID of the intern to delete", examples={"example": "0001"}),
     db: AsyncIOMotorClient = Depends(get_db)
 ):
     """Deletes an intern by ID."""
