@@ -2,6 +2,7 @@ from fastapi import FastAPI, HTTPException
 from openApi.routes.intern_routes import router as intern_router
 import logging
 
+
 app = FastAPI()
 
 # Setup logging
